@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* --Start nav-bar ---- */
+#img1{
+    border-radius: 50%;
+   
+}
+.navbar h1{
+    color: blue;
+    margin-right: 1130px;
+    margin-top: 5px;
+    cursor: default;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:white ;
+    position: fixed;
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.nav{
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+/* -----nav-bar end------ */
+/* ----- home part start ---- */
+
+#img2{
+    height: 500px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 300px;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    background-color: rgb(192, 192, 192);
+    padding-top: 150px;
+    padding-bottom: 170px;
+}
+
+/* ====text part ==== */
+.text{
+    /* margin-left: 30px; */
+    padding: 100px;
+}
+.text h1{
+    font-size: 70px;
+    color: blue;
+}
+.text p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btn1{
+    margin-top: 30px;
+    padding: 12px;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 50px;
+    background-color: blue;
+
+}
+.btn2{
+    margin-top: 30px;
+    padding: 12px;
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 50px;
+    margin-left: 20px;
+}
